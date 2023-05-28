@@ -1,0 +1,38 @@
+   37  ssh -i "id_rsa" root@ec2-18-168-255-137.eu-west-2.compute.amazonaws.com
+   38  sudo su
+   39  sudo apt update
+   40  sudo apt install git
+   41  git --version
+   42  git init
+   43  touch x1
+   44  git add .
+   45  git status
+   46  git commit -m "transfering files to github by arvind"
+   47  git push origin master
+   48  [200~git remote -v username
+   49  git config --global user.name "arvind9618"
+   50  git config --global user.email "aravind.ratod.9618@gmail.com"
+   51  git remote -v
+   52  git remote add origin git@github.com:Arvind9618/new.git
+   53  git remote -v
+   54  git push -u origin master
+   55  ls
+   56  ls -a
+   57  ls .git
+   58  ls .ssh
+   59  cat authorized_keys
+   60  sudo cat /home/ubuntu/.ssh/authorized_keys
+   61  git push -u origin master
+   62  ssh-keygen -t ed25519 -C "aravind.rathod9618@gmail.com"
+   63  cd /home/ubuntu/.ssh/id_ed25519
+   64  cd /home/ubuntu/.ssh/
+   65  ls
+   66  cat id_ed25519.pub
+   67  cd ..
+   68  git push -u origin master
+   69  history
+   70  tail history -31
+   71  history | tail -31
+   72  history | tail -38
+   73  touch git_history.txt
+   74  history | tail -38 > git_history.txt
